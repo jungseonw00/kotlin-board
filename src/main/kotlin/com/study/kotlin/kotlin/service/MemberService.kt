@@ -8,11 +8,11 @@ import org.springframework.stereotype.Service
 @Transactional
 @Service
 class MemberService(
-    private val memberRepository: MemberRepository
+    private var memberRepository: MemberRepository
 ) {
 
-    fun save(name: String, age: Int, gender: String): Member {
-        val member = Member(name = name, age = age, gender = gender)
+    fun save(member: Member): Member {
+        val member = Member(name = member.name, age = member.age, gender = member.gender)
         return memberRepository.save(member);
     }
 }

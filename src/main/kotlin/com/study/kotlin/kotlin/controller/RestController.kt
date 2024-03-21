@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 class RestController (
-    private val memberService: MemberService
+    private var memberService: MemberService
 ) {
 
     @GetMapping("/hello")
     fun hello(): Member {
-        val member = Member(name = "seonwoo_jung", age = 20, gender = "남자")
-        return memberService.save(member.name, member.age, member.gender)
+        var member = Member(name = "seonwoo_jung", age = 20, gender = "남자")
+        return memberService.save(member)
     }
 }
