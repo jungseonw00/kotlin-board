@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 class RestController (
-    private val memberService: MemberService
+    private var memberService: MemberService
 ) {
 
     @GetMapping("/hello")
