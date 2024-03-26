@@ -1,4 +1,4 @@
-package com.study.kotlin.kotlin.study.lec03;
+package com.study.kotlin.kotlin.study.sec01.lec03;
 
 public class VariableTypeInJava {
 	public static void main(String[] args) {

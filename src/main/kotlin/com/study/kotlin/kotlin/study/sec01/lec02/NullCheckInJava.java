@@ -1,4 +1,4 @@
-package com.study.kotlin.kotlin.study.lec02;
+package com.study.kotlin.kotlin.study.sec01.lec02;
 
 public class NullCheckInJava {
 

@@ -1,4 +1,4 @@
-package com.study.kotlin.kotlin.study.lec01
+package com.study.kotlin.kotlin.study.sec01.lec01
 
 class VariableInKotlin {
     fun main() {

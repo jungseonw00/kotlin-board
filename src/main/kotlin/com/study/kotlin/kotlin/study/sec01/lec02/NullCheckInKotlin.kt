@@ -1,6 +1,6 @@
-package com.study.kotlin.kotlin.study.lec02
+package com.study.kotlin.kotlin.study.sec01.lec02
 
-import com.study.kotlin.kotlin.study.lec01.Person
+import com.study.kotlin.kotlin.study.sec01.lec01.Person
 
 class NullCheckInKotlin {
 
@@ -8,7 +8,7 @@ class NullCheckInKotlin {
         var str: String? = "ABC"
         // safe call
         str = null
-        println(str!!.startsWith("A"))
+//        println(str!!.startsWith("A"))
         println(str?.length)
         // elvis
         println(str?.length ?: 0)
