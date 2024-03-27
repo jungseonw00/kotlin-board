@@ -23,7 +23,7 @@ class VariableInKotlin {
         var number5 = 1_000L
 
         /**
-         * null이 들어갈 수 있다면 타입에 ?를 추가한다.
+         * null이 들어갈 수 있다면 타입뒤에 ?를 추가한다.
          */
         var number6: Long? = 1_000L
         number6 = null
