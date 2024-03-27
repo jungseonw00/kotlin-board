@@ -9,9 +9,9 @@ import jakarta.persistence.Id
 data class Member(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    var id: Long? = null,
-    var name: String,
-    var age: Int,
-    var gender: String,
+    val id: Long,
+    val name: String,
+    val age: Int,
+    val gender: String,
 ) {
 }
